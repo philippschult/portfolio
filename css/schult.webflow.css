@@ -1,0 +1,198 @@
+.hero-heading-center {
+  background-color: #f5f7fa;
+  background-image: linear-gradient(#598e883b, #598e883b), url('../images/julia-solonina-wRJfHQ2oQOE-unsplash-1.webp');
+  background-position: 0 0, 0 0;
+  background-repeat: repeat, no-repeat;
+  background-size: auto, cover;
+  border-bottom: 1px solid #e4ebf3;
+  padding: 80px 30px;
+  position: relative;
+}
+
+.container {
+  width: 100%;
+  max-width: 940px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.centered-heading {
+  text-align: center;
+  margin-bottom: 16px;
+}
+
+.centered-heading.margin-bottom-32px {
+  color: #fff;
+  margin-bottom: 32px;
+}
+
+.hero-wrapper {
+  -webkit-backdrop-filter: brightness(135%) blur(9px);
+  backdrop-filter: brightness(135%) blur(9px);
+  background-color: #ffffff4f;
+  background-image: linear-gradient(#fff0, #fff0);
+  border: .125rem #fff;
+  border-radius: 1rem;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: -5rem;
+  padding: 2rem;
+  transition: background-color .5s;
+  display: flex;
+}
+
+.hero-wrapper:hover {
+  background-color: #ffffff87;
+}
+
+.hero-split {
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+  max-width: 46%;
+  display: flex;
+}
+
+.margin-bottom-24px {
+  color: #5a6e79;
+  font-size: 15px;
+}
+
+.button-primary {
+  color: #fff;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+  background-color: #0077b5;
+  border-radius: .5rem;
+  padding: 12px 25px;
+  font-size: 12px;
+  line-height: 20px;
+  transition: all .2s;
+}
+
+.button-primary:hover {
+  color: #fff;
+  background-color: #008bd3;
+}
+
+.button-primary:active {
+  background-color: #43464d;
+}
+
+.button-primary.is-div {
+  grid-column-gap: .5rem;
+  grid-row-gap: .5rem;
+  color: #f0fafff2;
+  text-decoration: none;
+  display: flex;
+}
+
+.hero-image {
+  filter: contrast(88%);
+  border: .25rem solid #fff;
+  border-radius: 50%;
+  width: 22rem;
+  box-shadow: 0 4px 24px #96a3b514;
+}
+
+.hero-heading-left {
+  background-color: #f5f7fa;
+  background-image: linear-gradient(310deg, #da5f165e, #fff0), url('../images/thomas-grams-glQ8KHegBYI-unsplash.webp');
+  background-position: 0 0, 50% 60%;
+  background-size: auto, cover;
+  border-bottom: 1px solid #e4ebf3;
+  justify-content: center;
+  align-items: center;
+  height: 100svh;
+  padding: 80px 30px;
+  display: flex;
+  position: relative;
+}
+
+.shadow-two {
+  box-shadow: 0 4px 24px #96a3b514;
+}
+
+.heading {
+  color: #00334e;
+  -webkit-text-fill-color: transparent;
+  background-image: linear-gradient(82deg, #00334e, #0077b5);
+  -webkit-background-clip: text;
+  background-clip: text;
+}
+
+.icon {
+  color: #5a6e79;
+  width: 1.125rem;
+  height: 1.125rem;
+}
+
+.row {
+  grid-column-gap: .5rem;
+  grid-row-gap: 0rem;
+  flex-flow: row;
+  justify-content: flex-start;
+  align-self: baseline;
+  align-items: flex-start;
+  font-size: 16px;
+  display: flex;
+}
+
+.spacer-medium {
+  width: 100%;
+  margin-top: 1rem;
+}
+
+.button_is-div {
+  display: flex;
+}
+
+.code-embed {
+  width: 1rem;
+  height: 1rem;
+}
+
+@media screen and (max-width: 991px) {
+  .container {
+    max-width: 728px;
+  }
+
+  .hero-wrapper {
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    margin-bottom: -40px;
+  }
+
+  .hero-split {
+    max-width: 100%;
+    margin-bottom: 40px;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .hero-heading-center, .hero-heading-left {
+    padding: 60px 15px;
+  }
+}
+
+@media screen and (max-width: 479px) {
+  .container {
+    max-width: none;
+  }
+
+  .centered-heading {
+    margin-bottom: 24px;
+  }
+
+  .hero-wrapper {
+    text-align: center;
+    justify-content: flex-start;
+    align-items: center;
+  }
+
+  .hero-split {
+    justify-content: flex-start;
+    align-items: center;
+  }
+}
